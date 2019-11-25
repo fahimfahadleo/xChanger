@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">XChanger</string>
+    <string name="input">input</string>
+    <string name="label">Label</string>
+    <string name="xchenger">xChenger</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="pass">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="reg">Register</string>
+    <string name="or">OR</string>
+    <string name="log_in_with_facebook">Log In With Facebook</string>
+    <string name="log_in_with_google">Log In With Google</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="buy_from">Buy From</string>
+    <string name="buy_amount">Buy Amount</string>
+    <string name="send_to">Send To</string>
+    <string name="send_amount">Send Amount</string>
+    <string name="buying">Buying</string>
+    <string name="next">Next</string>
+    <string name="sending_information">Sending Information</string>
+    <string name="_20_buy">20\nBuy</string>
+    <string name="_20_sell">20\nSell</string>
+    <string name="_20_exchange">20\nExchange</string>
+    <string name="_20_referral">20\nReferral</string>
+    <string name="_20_balance">20\nBalance</string>
+    <string name="_20_feedback">20\nFeedback</string>
+    <string name="dis">You Are Buying 6 USD on PayPal\n\nTo complete your order send 12.06 USD to\nour Skrill account. Then Submit this order\n\nRequest. Our Skrill account: alamin@skrill.com</string>
+
+</resources>

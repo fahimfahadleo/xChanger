@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pik"
+                android:layout_margin="20dp"/>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="3.5"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:text="Al-Amin Firdows"
+                />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="20dp"
+                        android:text="@string/_20_buy"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_height="100dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:textSize="20dp"
+                        android:text="@string/_20_sell"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_marginStart="15dp"
+                        android:layout_height="100dp"/>
+                </LinearLayout>
+
+
+
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="100dp"
+
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="20sp"
+                        android:text="@string/_20_exchange"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_height="100dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="20sp"
+                        android:text="@string/_20_referral"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_height="100dp"/>
+
+                </LinearLayout>
+
+
+
+            </TableRow>
+            <TableRow>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_marginStart="30dp"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="20sp"
+                        android:text="@string/_20_balance"
+                        android:layout_height="100dp"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="20sp"
+                        android:text="@string/_20_feedback"
+                        android:background="@drawable/buttonstyle2"
+                        android:layout_height="100dp"/>
+                </LinearLayout>
+
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
